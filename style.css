@@ -7,7 +7,7 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  font-family: "Montserrat", sans-serif;  
+  font-family: "Montserrat", sans-serif;
 }
 
 body {
@@ -156,6 +156,9 @@ main {
   background-image: url(/assets/hero-5.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .welcome {
@@ -181,7 +184,14 @@ main {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+.text-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .box-text-home h1 {
+  width: 100%;
   color: #fff;
   text-align: center;
   font-size: 25px;
@@ -200,16 +210,19 @@ main {
 }
 
 .btn-freeTest {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-weight: 600;
   font-size: 18px;
   background-color: #fcb80b;
-  width: 205px;
+  width: 248px;
   height: 60px;
   color: #000;
   transition: 1.1s;
   border-radius: 30px;
   border: 1px solid #fcb80b;
-  margin: 11px 50px;
+  margin: 11px 30px;
 }
 
 .btn-freeTest:hover {
@@ -220,7 +233,7 @@ main {
 
 .img-home {
   margin-top: 20px;
-  width: 300px;
+  width: 90%;
   margin-left: 3px;
 }
 
@@ -287,12 +300,21 @@ main {
   margin-bottom: 10px;
 }
 
-/* =========client===========*/
+/* =========free-test===========*/
 .free-test {
-  background-color: green;
+  background-color: rgb(108, 196, 108);
   width: 100%;
   height: 40vh;
   margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.free-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .text-test {
@@ -313,6 +335,9 @@ main {
 }
 
 .btn-test {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 20px;
   width: 260px;
   height: 60px;
@@ -320,7 +345,7 @@ main {
   border-radius: 30px;
   font-size: 16px;
   font-weight: 700;
-  background-color: #fff;
+  background-color: #ffffff;
   transform: 0.5;
   box-shadow: rgba(0, 255, 0, 0.49) 0px 19px 38px,
     rgba(0, 255, 0, 0.64) 0px 15px 12px;
@@ -330,7 +355,7 @@ main {
   transform: scale(1);
 }
 
-.btn-test a {
+.btn-test {
   text-decoration: none;
   color: green;
 }
@@ -339,24 +364,32 @@ main {
 
 .container-recurso {
   margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .title-recurso {
   text-align: center;
   font-size: 32px;
-  color: green;
+  color: rgb(108, 109, 108);
   width: 80%;
   margin-left: 32px;
 }
 
 .recursos-nati {
   margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .boxm {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   margin-top: 30px;
   height: 32vh;
 }
@@ -370,8 +403,14 @@ main {
   background-color: #8ad197;
 }
 
-.boxm svg {
-  width: 65px;
+.ic {
+  margin-top: 10px;
+  font-size: 80px;
+  color: green;
+}
+
+.ic:hover {
+  color: rgb(8, 100, 8);
 }
 
 .boxm h1 {
@@ -410,8 +449,8 @@ main {
 .testimonial {
   position: relative;
   max-width: 1200px;
-  width: 100%;  
-  padding: 50px 0; 
+  width: 100%;
+  padding: 50px 0;
 }
 
 .testimonial .image {
@@ -421,7 +460,7 @@ main {
   border-radius: 50%;
 }
 
-.testimonial .slide {  
+.testimonial .slide {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -449,7 +488,7 @@ main {
   align-items: center;
 }
 
-.details .name{
+.details .name {
   font-weight: 14px;
   font-weight: 600;
   color: #333;
@@ -494,7 +533,7 @@ main {
 /* ========= Vitalicia ===========*/
 .vitalicia {
   margin-top: 90px;
-  background-color: #f3f3f3;  
+  background-color: #f3f3f3;
 }
 
 .box-text-vitali {
@@ -503,12 +542,12 @@ main {
 }
 
 .title-vita {
-  text-align: center;  
+  text-align: center;
   width: 90%;
   font-weight: 800;
   margin: 30px 20px;
-  color: #1f1d1d;  
-  font-size: 30px;  
+  color: #1f1d1d;
+  font-size: 30px;
 }
 
 .title-vita span {
@@ -520,12 +559,12 @@ main {
   font-family: "Montserrat", sans-serif;
   width: 90%;
   font-weight: 200;
-  margin: 10px 20px ;
+  margin: 10px 20px;
   color: #413c3c;
 }
 
 .box-text-vitali h3 {
-  text-align: center;  
+  text-align: center;
   width: 90%;
   font-weight: 800;
   margin-left: 20px;
@@ -542,7 +581,7 @@ main {
 
 /* ========= Compra ===========*/
 .compra {
-  margin-top: 40px;  
+  margin-top: 40px;
 }
 
 .licensa {
@@ -550,7 +589,7 @@ main {
   flex-direction: column;
 }
 
-.img-licensa{
+.img-licensa {
   width: 120%;
   margin-left: 10px;
 }
@@ -594,6 +633,7 @@ main {
 .produto {
   display: flex;
   flex-direction: column;
+  align-items: center;
   background-color: #c7c5c5;
   width: 90%;
   text-align: center;
@@ -603,11 +643,13 @@ main {
   margin-top: 60px;
 }
 
-.title-produto {   
+.title-produto {
   font-size: 20px;
-  margin: 20px 0px; 
+  margin: 20px 0px;
+  width: 95%;
 }
 .valor {
+  width: 100%;
   background-color: rgb(80, 168, 80);
   color: #f3f3f3;
   border: 1px solid #817f7f;
@@ -624,7 +666,7 @@ main {
 }
 
 .valor p {
-  font-family:  "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 16px;
   margin-bottom: 30px;
@@ -657,17 +699,59 @@ main {
 
 .sub-text {
   font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #2c3e50;
+  background-color: #f8f9fa;
+  padding: 16px;
+  border-radius: 12px;
+  line-height: 1.6;
+  margin: 20px 16px;
+}
+
+.sub-text strong {
+  color: #34495e;
+}
+
+.sub-text a {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-top: 12px;
+  padding: 12px;
+  border-radius: 8px;
   font-weight: 500;
-  font-size: 19px;
-  margin: 20px 13px;
-  width: 90%; 
+  text-decoration: none;
+  transition: background 0.3s ease;
 }
 
-.sub-text span {
-  color: red;
+.btn-whatsapp {
+  background-color: #25d366;
+  color: white;
 }
 
-.btn-cortesia:link, .btn-cortesia:visited {
+.btn-whatsapp:hover {
+  background-color: #1ebe5d;
+}
+
+.btn-download {
+  background-color: #2980b9;
+  color: white;
+}
+
+.btn-download:hover {
+  background-color: #1f6390;
+}
+
+.sub-text .sistema {
+  margin-top: 20px;
+  font-weight: 500;
+  color: #c0392b;
+  font-size: 0.95rem;
+}
+
+.btn-cortesia:link,
+.btn-cortesia:visited {
   width: 220px;
   height: 48px;
   background-color: white;
@@ -683,72 +767,111 @@ main {
   font-weight: 600;
 }
 
-.btn-cortesia:hover, .btn-cortesia:active {
+.btn-cortesia:hover,
+.btn-cortesia:active {
   background-color: green;
   color: white;
 }
 
 /*====================== Footer ================*/
 .footer-basic {
-  padding:40px 0;
-  background-color:#ffffff;
-  color:#4b4c4d;
+  padding: 40px 0;
+  background-color: #ffffff;
+  color: #4b4c4d;
 }
 
 .footer-basic ul {
-  padding:0;
-  list-style:none;
-  text-align:center;
-  font-size:18px;
-  line-height:1.6;
-  margin-bottom:0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
 }
 
 .footer-basic li {
-  padding:0 10px;
+  padding: 0 10px;
 }
 
 .footer-basic ul a {
-  color:inherit;
-  text-decoration:none;
-  opacity:0.8;
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
 }
 
 .footer-basic ul a:hover {
-  opacity:1;
+  opacity: 1;
 }
 
 .footer-basic .social {
-  text-align:center;
-  padding-bottom:25px;
+  text-align: center;
+  padding-bottom: 25px;
 }
 
 .footer-basic .social > a {
-  font-size:24px;
-  width:40px;
-  height:40px;
-  line-height:40px;
-  display:inline-block;
-  text-align:center;
-  border-radius:50%;
-  border:1px solid #ccc;
-  margin:0 8px;
-  color:inherit;
-  opacity:0.75;
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin: 0 8px;
+  color: inherit;
+  opacity: 0.75;
 }
 
 .footer-basic .social > a:hover {
-  opacity:0.9;
+  opacity: 0.9;
+  color: #337e30;
+}
+
+.icons {
+  margin: 7px 4px;
 }
 
 .footer-basic .copyright {
-  margin-top:15px;
-  text-align:center;
-  font-size:13px;
-  color:#aaa;
-  margin-bottom:0;
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #337e30;
+  margin-bottom: 0;
 }
 
+.text-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.text-contact h1 {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.email {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.email ion-icon {
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.phone {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.phone ion-icon {
+  font-size: 25px;
+  font-weight: bold;
+}
 
 /* ===== DESKTOP (min-width: 1000px) ===== */
 @media (min-width: 1000px) {
