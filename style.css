@@ -7,15 +7,17 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;  
 }
 
-body {
-  font-size: 100%;
+body {  
   list-style-type: none;
   overflow-x: hidden;
 }
 
+html {
+  font-size: 10px;
+}
 /* $$$$$ mobile first $$$$$$$*/
 /* ----------- Bar convite ----------*/
 .span-convite {
@@ -32,13 +34,13 @@ body {
 .span-convite h1 {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 1.5rem;
   color: #000;
   margin-top: 5px;
 }
 
 .span-convite i {
-  font-size: 15px;
+  font-size: 1.5rem;
   margin-top: 5px;
 }
 
@@ -94,7 +96,7 @@ nav {
   opacity: 0;
   transition: opacity 0.5s ease;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 1.6rem;
 }
 
 .mobile-menu {
@@ -190,11 +192,17 @@ main {
   align-items: center;
 }
 
+.box-text-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .box-text-home h1 {
   width: 100%;
   color: #fff;
   text-align: center;
-  font-size: 25px;
+  font-size: 2.5rem;
   font-weight: 800;
   margin-top: 36px;
 }
@@ -204,7 +212,7 @@ main {
   color: #fff;
   font-family: "Roboto", sans-serif;
   text-align: center;
-  font-size: 18px;
+  font-size: 1.8rem;
   font-weight: 300;
   margin: 36px 30px;
 }
@@ -214,7 +222,7 @@ main {
   justify-content: center;
   align-items: center;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 1.8rem;
   background-color: #fcb80b;
   width: 248px;
   height: 60px;
@@ -256,6 +264,7 @@ main {
 
 .box-text-message h1 {
   text-align: center;
+  font-size: 2rem;
 }
 
 .box-text-message h1 span {
@@ -265,15 +274,19 @@ main {
 .box-text-message p {
   text-align: center;
   color: grey;
+  font-size: 1.6rem;
 }
 
 .box-text-message h2 {
   text-align: center;
   margin-top: 10px;
+  font-size: 1.8rem;
 }
 
 /* =========client===========*/
 .container-client {
+  display: flex;
+  flex-direction: column;
   background-color: rgb(235, 234, 233);
   margin-top: 60px;
 }
@@ -282,6 +295,7 @@ main {
   margin-top: 30px;
   text-align: center;
   font-weight: 700;
+  font-size: 2rem;
 }
 
 .container-client h1 span {
@@ -319,19 +333,23 @@ main {
 
 .text-test {
   margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .text-test h1 {
   color: #fff;
   text-align: center;
+  font-size: 3rem;
 }
 
 .text-test p {
   margin-top: 15px;
   text-align: center;
   color: #fff;
-  width: 80%;
-  margin-left: 35px;
+  width: 80%;  
+  font-size: 2.5rem;
 }
 
 .btn-test {
@@ -372,7 +390,7 @@ main {
 
 .title-recurso {
   text-align: center;
-  font-size: 32px;
+  font-size: 3.2rem;
   color: rgb(108, 109, 108);
   width: 80%;
   margin-left: 32px;
@@ -405,7 +423,7 @@ main {
 
 .ic {
   margin-top: 10px;
-  font-size: 80px;
+  font-size: 8rem;
   color: green;
 }
 
@@ -417,6 +435,7 @@ main {
   width: 90%;
   text-align: center;
   margin-top: 20px;
+  font-size: 2.5rem;
 }
 
 .boxm p {
@@ -425,6 +444,7 @@ main {
   margin-top: 10px;
   font-family: "Montserrat", sans-serif;
   color: grey;
+  font-size: 1.6rem;
 }
 
 #m1 p,
@@ -473,7 +493,7 @@ main {
   font-family: "Montserrat", sans-serif;
   padding: 0 160px;
   text-align: center;
-  font-size: 14px;
+  font-size: 1.6rem;
   font-weight: 500;
   color: #7a7878;
 }
@@ -492,10 +512,11 @@ main {
   font-weight: 14px;
   font-weight: 600;
   color: #333;
+  font-size: 1.7rem;
 }
 
 .details .job {
-  font-size: 12px;
+  font-size: 1.5rem;
   font-weight: 400;
   color: #333;
 }
@@ -547,7 +568,7 @@ main {
   font-weight: 800;
   margin: 30px 20px;
   color: #1f1d1d;
-  font-size: 30px;
+  font-size: 3rem;
 }
 
 .title-vita span {
@@ -559,6 +580,7 @@ main {
   font-family: "Montserrat", sans-serif;
   width: 90%;
   font-weight: 200;
+  font-size: 1.6rem;
   margin: 10px 20px;
   color: #413c3c;
 }
@@ -570,7 +592,7 @@ main {
   margin-left: 20px;
   color: #1f1d1d;
   margin-top: 40px;
-  font-size: 20px;
+  font-size: 2rem;
 }
 
 .img-vitali {
@@ -601,7 +623,7 @@ main {
 }
 
 .box-text-licensa h1 {
-  font-size: 32px;
+  font-size: 3.2rem;
   font-weight: 800;
   color: #1f1d1d;
 }
@@ -610,12 +632,12 @@ main {
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
   color: #7a7878;
-  font-size: 18px;
+  font-size: 1.8rem;
   margin-top: 20px;
 }
 
 .box-text-licensa h3 {
-  font-size: 26px;
+  font-size: 2.6rem;
   font-weight: 600;
   color: #1f1d1d;
   margin-top: 30px;
@@ -644,7 +666,7 @@ main {
 }
 
 .title-produto {
-  font-size: 20px;
+  font-size: 2rem;
   margin: 20px 0px;
   width: 95%;
 }
@@ -658,17 +680,17 @@ main {
 .valor h1 {
   margin-top: 30px;
   font-weight: 800;
-  font-size: 32px;
+  font-size: 3.2rem;
 }
 
 .valor span {
-  font-size: 22px;
+  font-size: 2.2rem;
 }
 
 .valor p {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 1.6rem;
   margin-bottom: 30px;
 }
 
@@ -700,7 +722,7 @@ main {
 .sub-text {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 1.6rem;
   color: #2c3e50;
   background-color: #f8f9fa;
   padding: 16px;
@@ -721,6 +743,7 @@ main {
   padding: 12px;
   border-radius: 8px;
   font-weight: 500;
+  font-size: 1.6rem;
   text-decoration: none;
   transition: background 0.3s ease;
 }
@@ -747,7 +770,7 @@ main {
   margin-top: 20px;
   font-weight: 500;
   color: #c0392b;
-  font-size: 0.95rem;
+  font-size: 1.3rem;
 }
 
 .btn-cortesia:link,
@@ -763,7 +786,7 @@ main {
   display: inline-block;
   margin: 12px 23px;
   border-radius: 17px;
-  font-size: 23px;
+  font-size: 2.3rem;
   font-weight: 600;
 }
 
@@ -784,7 +807,7 @@ main {
   padding: 0;
   list-style: none;
   text-align: center;
-  font-size: 18px;
+  font-size: 1.8rem;
   line-height: 1.6;
   margin-bottom: 0;
 }
@@ -809,7 +832,7 @@ main {
 }
 
 .footer-basic .social > a {
-  font-size: 24px;
+  font-size: 2.4rem;
   width: 40px;
   height: 40px;
   line-height: 40px;
@@ -834,7 +857,7 @@ main {
 .footer-basic .copyright {
   margin-top: 15px;
   text-align: center;
-  font-size: 13px;
+  font-size: 1.3rem;
   color: #337e30;
   margin-bottom: 0;
 }
@@ -846,7 +869,7 @@ main {
 }
 
 .text-contact h1 {
-  font-size: 15px;
+  font-size: 1.5rem;
   font-weight: 500;
 }
 
@@ -857,7 +880,7 @@ main {
 }
 
 .email ion-icon {
-  font-size: 25px;
+  font-size: 2.5rem;
   font-weight: 800;
 }
 
@@ -869,11 +892,81 @@ main {
 }
 
 .phone ion-icon {
-  font-size: 25px;
+  font-size: 2.5rem;
   font-weight: bold;
 }
 
 /* ===== DESKTOP (min-width: 1000px) ===== */
+@media (min-width: 700px) {
+  html {
+    font-size: 11px;
+  }
+
+  /* ----------- Home ----------*/
+  .welcome {   
+    height: 62px;
+    width: 406px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+
+  .btn-freeTest {
+    width: 350px;    
+  }
+
+  /* =========client===========*/
+  .logo-client {    
+    column-count: 3;    
+  }
+
+  .img-cli {
+    width: 90%;  
+  }
+ 
+  /*------- Freee-test---------- */
+  .text-test h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 2.5rem;
+  }
+
+  .text-test p {
+    margin-top: 15px;
+    text-align: center;
+    color: #fff;
+    width: 80%;  
+    font-size: 2rem;
+  }
+
+  /*---------Vitalicia ---------*/
+    .img-vitali {
+    width: 80%;
+    margin-left: 41px;    
+  }
+
+  /* ========= Card produtc ===========*/
+    .cortesia {    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+  }
+}
+
+@media (min-width: 900px) {
+  html {
+    font-size: 12px;
+  }
+
+  .text-contact {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+  }
+}
+
 @media (min-width: 1000px) {
   .mobile-menu {
     display: none;
@@ -893,5 +986,93 @@ main {
   .nav-list li {
     opacity: 1;
     margin-left: 32px;
+  }
+
+  /* ----------- Home ----------*/
+  .dif {    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .img-home {
+    margin-left: 150px;
+  }
+
+  .text-home {
+    margin-left: 50px;
+  }
+
+  /*send mesage */
+  .container-message {
+    display: flex;    
+  }
+
+  .imagem-doapp {
+    width: 80%;
+    margin-left: -350px;
+  } 
+
+  /* Recursos */
+    .container-recurso {
+    margin-top: 25px;
+    padding: 0 15px;
+  }
+
+  .title-recurso {
+    font-size: 2.5rem;
+    width: 90%;
+    margin-left: 0;
+  }
+
+  .recursos-nati {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+
+  .boxm {
+    height: auto;
+    padding: 20px 15px;
+    margin-top: 0;
+    border-radius: 8px;
+  }
+
+  .ic {
+    font-size: 5rem;
+    margin-top: 5px;
+  }
+
+  .boxm h1 {
+    font-size: 1.8rem;
+    margin-top: 15px;
+  }
+
+  .boxm p {
+    font-size: 1.4rem;
+    width: 90%;
+  }
+
+  /* testi */
+  .container {
+    margin-top: 150px;
+  }
+
+  /*vitali*/
+  .vitalicia-container {
+    display: flex;
+    align-items: center;
+  }
+
+  /* compra */
+  .licensa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .img-licensa {
+    width: 60%;
+    margin-left: 10px;
   }
 }
