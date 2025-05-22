@@ -80,3 +80,64 @@ const swiper = new Swiper(".mySwiper", {
     }
   }
 });
+
+//home----------------
+
+ScrollReveal().reveal('.text-home', {
+  delay: 2000,
+  distance: '100px'
+});
+
+ //send----------------
+
+ScrollReveal().reveal('.imagem-doapp',  {
+  delay: 3000,
+  duration: 600,
+  distance: '100px',
+  origin: 'left'
+});
+
+ScrollReveal().reveal('.box-text-message', {
+  delay: 4000,
+  distance: '100px',
+  origin: 'right'
+});
+
+ //free ----------------
+
+ScrollReveal().reveal('.free-container', {
+  delay: 1500,
+  duration: 600,
+  distance: '0px',
+  opacity: 0
+});
+
+ //vitali----------------
+
+ScrollReveal().reveal(".box-text-vitali",  {
+  delay: 3000,
+  duration: 600,
+  distance: '100px',
+  origin: 'left'
+});
+
+ScrollReveal().reveal('.img-vitali', {
+  delay: 4000,
+  distance: '100px',
+  origin: 'right'
+});
+
+ //vitali----------------
+
+ScrollReveal().reveal(".img-licensa",  {
+  delay: 3000,
+  duration: 600,
+  distance: '100px',
+  origin: 'bottom'
+});
+
+ScrollReveal().reveal('.box-text-licensa', {
+  delay: 4500,
+  distance: '150px',
+  origin:'bottom'
+});

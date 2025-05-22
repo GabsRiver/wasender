@@ -989,14 +989,15 @@ main {
   }
 
   /* ----------- Home ----------*/
-  .dif {    
+  .dif {  
+    margin-top: 50px;  
     display: flex;
     flex-direction: row;
     align-items: center;
   }
   
   .img-home {
-    margin-left: 150px;
+    margin-right: -350px;
   }
 
   .text-home {
@@ -1012,6 +1013,16 @@ main {
     width: 80%;
     margin-left: -350px;
   } 
+
+   /* =========client===========*/
+  .logo-client {    
+    column-count: 1;    
+  }
+
+  .img-cli {
+    width: 16%; 
+    margin-left: 10px; 
+  }
 
   /* Recursos */
     .container-recurso {
