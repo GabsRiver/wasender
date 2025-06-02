@@ -56,8 +56,8 @@ html {
 }
 
 .logo img {
-  width: 130px;
-  height: 43px;
+    width: 160px;
+    height: 146px;
 }
 
 nav {
@@ -341,7 +341,7 @@ main {
 .text-test h1 {
   color: #fff;
   text-align: center;
-  font-size: 3rem;
+  font-size: 2.4rem;
 }
 
 .text-test p {
@@ -349,7 +349,7 @@ main {
   text-align: center;
   color: #fff;
   width: 80%;  
-  font-size: 2.5rem;
+  font-size: 1.8rem;
 }
 
 .btn-test {
