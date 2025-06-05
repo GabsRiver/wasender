@@ -46,7 +46,7 @@ html {
 
 /* ----------- Header ----------*/
 .nav-list a {
-  color: #000;
+  color: #fff;
   text-decoration: none;
   transition: 0.3s;
 }
@@ -56,8 +56,9 @@ html {
 }
 
 .logo img {
-    width: 160px;
-    height: 146px;
+    width: 145px;
+    height: 135px;
+    margin-top: 12px;
 }
 
 nav {
@@ -69,7 +70,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   height: 8vh;
-  background: #fff;
+  background: rgb(8, 100, 8);
   padding: 0 20px;
   z-index: 5;
 }
@@ -82,7 +83,7 @@ nav {
   right: -100%;
   width: 70%;
   height: 92vh;
-  background-color: #fff;
+  background-color: rgb(8, 100, 8);
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
@@ -107,7 +108,7 @@ nav {
 .mobile-menu div {
   width: 32px;
   height: 2px;
-  background-color: #000;
+  background-color: #fff;
   margin: 8px;
   transition: all 0.3s ease;
 }
